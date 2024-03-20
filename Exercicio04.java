@@ -13,8 +13,8 @@ public class Exercicio04 {
         }
         Prompt.imprimir("Sua sequencia: " + Arrays.toString(nums).replace("[", "").replace("]", "") +  "\n");
         int n = Prompt.lerInteiro("Insira um número n: ");
-        for (int i = 0; i < n; i++) {
-            Prompt.imprimir("Indice: "+ i + "," + " Número: " + nums[i]);
+        for (int i = 0; i < 5; i++) {
+            if (nums[i] < n) Prompt.imprimir("Indice: "+ i + "," + " Número: " + nums[i]);
         }
     }
 }
